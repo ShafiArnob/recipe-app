@@ -46,6 +46,16 @@
       "method": "turn the mushroom into soup",
       "cookingTime": "65minutes",
       "id": "V26PXlU"
+    },
+    {
+      "title": "chicken curry",
+      "ingredients": [
+        "chicken",
+        "curry"
+      ],
+      "method": "blah blah",
+      "cookingTime": "45minutes",
+      "id": "inEGon3"
     }
   ]
 }
