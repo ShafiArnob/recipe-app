@@ -9,7 +9,7 @@ function RecipeList({recipes}) {
           <h3>{recipe.title}</h3>
           <p>{recipe.cookTime} to make.</p>
           <div>{recipe.method.substring(0,100)}...</div>
-          <Link to={`/recipes/${recipe.id}`}>Cook This</Link>
+          <Link to={`recipes/${recipe.id}`}>Cook This</Link>
         </div>
       ))}
     </div>
