@@ -7,10 +7,12 @@ import Search from './pages/search/Search'
 import Recipe from './pages/recipe/Recipe'
 
 import Navbar from './components/Navbar';
+import ThemeSelector from './components/ThemeSelector';
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <ThemeSelector></ThemeSelector>
         <Routes>
           <Route exact path='/' element={<Home></Home>}></Route>
           <Route path='/create' element={<Create></Create>}></Route>
